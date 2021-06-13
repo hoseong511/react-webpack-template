@@ -1,6 +1,7 @@
 ## Use it!
 ```cmd
 npx degit hoseong511/react-webpack-template [Project name]
+cd [Project name]
 ```
 ## Run
 ```npm run dev```: webpack-dev-server --mode development
