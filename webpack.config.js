@@ -42,6 +42,10 @@ module.exports = {
           'sass-loader' // 1
         ]
       },
+      {
+        test: /\.(png|jpe?g|gif|webp)$/,
+        use: 'file-loader'
+      }
     ]
   },
   plugins: [
